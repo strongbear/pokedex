@@ -13,6 +13,7 @@
 		EC2E921D1CB4A498006A635A /* pokedex.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC2E921B1CB4A498006A635A /* pokedex.xcdatamodeld */; };
 		EC2E921F1CB4A498006A635A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC2E921E1CB4A498006A635A /* Assets.xcassets */; };
 		EC2E92221CB4A498006A635A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC2E92201CB4A498006A635A /* LaunchScreen.storyboard */; };
+		EC2E922A1CB4A915006A635A /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = EC2E92291CB4A915006A635A /* pokemon.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EC2E921E1CB4A498006A635A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC2E92211CB4A498006A635A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC2E92231CB4A498006A635A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC2E92291CB4A915006A635A /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = pokemon.csv; path = "../../../../Desktop/pokeapi-master/data/v1/pokemon.csv"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				EC2E92161CB4A498006A635A /* ViewController.swift */,
 				EC2E92181CB4A498006A635A /* Main.storyboard */,
 				EC2E921E1CB4A498006A635A /* Assets.xcassets */,
+				EC2E92291CB4A915006A635A /* pokemon.csv */,
 				EC2E92201CB4A498006A635A /* LaunchScreen.storyboard */,
 				EC2E92231CB4A498006A635A /* Info.plist */,
 				EC2E921B1CB4A498006A635A /* pokedex.xcdatamodeld */,
@@ -128,6 +131,7 @@
 			files = (
 				EC2E92221CB4A498006A635A /* LaunchScreen.storyboard in Resources */,
 				EC2E921F1CB4A498006A635A /* Assets.xcassets in Resources */,
+				EC2E922A1CB4A915006A635A /* pokemon.csv in Resources */,
 				EC2E921A1CB4A498006A635A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

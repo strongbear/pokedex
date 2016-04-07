@@ -16,6 +16,7 @@
 		EC2E923E1CB4B07A006A635A /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = EC2E923D1CB4B07A006A635A /* pokemon.csv */; };
 		EC2E92431CB4B13F006A635A /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2E92421CB4B13F006A635A /* Pokemon.swift */; };
 		EC2E92451CB53FD9006A635A /* PokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2E92441CB53FD9006A635A /* PokeCell.swift */; };
+		EC2E92471CB693E1006A635A /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2E92461CB693E1006A635A /* csv.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		EC2E923D1CB4B07A006A635A /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 		EC2E92421CB4B13F006A635A /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		EC2E92441CB53FD9006A635A /* PokeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeCell.swift; sourceTree = "<group>"; };
+		EC2E92461CB693E1006A635A /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				EC2E92401CB4B125006A635A /* View */,
 				EC2E923F1CB4B116006A635A /* Controller */,
 				EC2E92141CB4A498006A635A /* AppDelegate.swift */,
+				EC2E92461CB693E1006A635A /* csv.swift */,
 				EC2E923D1CB4B07A006A635A /* pokemon.csv */,
 				EC2E921E1CB4A498006A635A /* Assets.xcassets */,
 				EC2E92231CB4A498006A635A /* Info.plist */,
@@ -173,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC2E92471CB693E1006A635A /* csv.swift in Sources */,
 				EC2E921D1CB4A498006A635A /* pokedex.xcdatamodeld in Sources */,
 				EC2E92431CB4B13F006A635A /* Pokemon.swift in Sources */,
 				EC2E92171CB4A498006A635A /* ViewController.swift in Sources */,

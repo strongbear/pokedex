@@ -5,6 +5,11 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="pokemonSolid.ttf">
+            <string>PokemonSolidNormal</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -23,9 +28,36 @@
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WGv-Li-EWe">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="50"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pokedex" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hx0-CW-4Ys">
+                                        <rect key="frame" x="183" y="15" width="234" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="234" id="8fw-u3-5Xs"/>
+                                            <constraint firstAttribute="height" constant="30" id="hW1-4N-r2z"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="PokemonSolidNormal" family="Pokemon Solid" pointSize="28"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zip-op-Wa4">
+                                        <rect key="frame" x="563" y="13" width="29" height="29"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="29" id="BxF-Rh-A2g"/>
+                                            <constraint firstAttribute="height" constant="29" id="f8o-he-ChN"/>
+                                        </constraints>
+                                        <state key="normal" image="music"/>
+                                        <connections>
+                                            <action selector="musicBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IaD-vJ-eHM"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
                                 <color key="backgroundColor" red="1" green="0.38776077269999998" blue="0.51133643250000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstItem="Hx0-CW-4Ys" firstAttribute="centerX" secondItem="WGv-Li-EWe" secondAttribute="centerX" id="9iz-ur-EYd"/>
                                     <constraint firstAttribute="height" constant="50" id="MQE-yb-WSY"/>
+                                    <constraint firstItem="Hx0-CW-4Ys" firstAttribute="centerY" secondItem="WGv-Li-EWe" secondAttribute="centerY" constant="5" id="bdu-F0-Y2b"/>
+                                    <constraint firstItem="Zip-op-Wa4" firstAttribute="top" secondItem="WGv-Li-EWe" secondAttribute="top" constant="13" id="kOt-n6-plk"/>
+                                    <constraint firstAttribute="trailing" secondItem="Zip-op-Wa4" secondAttribute="trailing" constant="8" id="lFw-I5-Pf2"/>
                                 </constraints>
                             </view>
                             <searchBar contentMode="redraw" ambiguous="YES" misplaced="YES" searchBarStyle="minimal" translatesAutoresizingMaskIntoConstraints="NO" id="nKM-qo-5Ml">
@@ -113,11 +145,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="256" y="387"/>
+            <point key="canvasLocation" x="234" y="385"/>
         </scene>
     </scenes>
     <resources>
         <image name="101" width="120" height="120"/>
         <image name="bg" width="1920" height="1200"/>
+        <image name="music" width="100" height="100"/>
     </resources>
 </document>
